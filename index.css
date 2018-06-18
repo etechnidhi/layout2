@@ -223,7 +223,9 @@ p{
             position: absolute;
             right: 35;
             top: 0;
-            
+        }
+        .subheading1{
+            display: none !important;
         }
         .grid-container {
             display: grid;
