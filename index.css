@@ -1,0 +1,261 @@
+body{
+    margin: 0 auto;
+}
+
+.navbar{
+    /* height: 6%; */
+    background-color: #292421;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.margin{
+    width: 81%;    
+    margin: 0 auto;
+}
+.navbar a{
+    color:grey;
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;    
+    margin-top: 3px;
+}
+.mainheading{
+    font-size: 16px;
+}
+.subheading{
+    font-size: 13px;
+    float: left;
+    padding-top: 2px;
+}
+.container{
+    width: 79%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.heading{
+    width: 100%;
+    margin-top: 20px;
+}
+.subheading1{
+    display: none;
+}
+.h1{
+    font-family: arial;
+    width: 100%;
+    background-color: #E8E8E8 ;   
+    border-radius: 4px; 
+}
+.li{
+    list-style: none;
+}
+.para{
+    width: 90%;
+    margin: 0 auto; 
+    padding: 50px;   
+}
+.head{
+    font-size: 50px;
+    /* width: 100%; */
+    color: #2a2a2a;
+}
+.content{
+    font-size: 12px;;
+    width: 80%; 
+    color: #3f3f3f;
+    margin-top: 10px; 
+}
+.button{
+    background-color: #33A1DE;
+    color:white;
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.more-info{
+    background-color: whitesmoke;
+    color:#3f3f3f;
+    text-align: center;
+    border-color: #3f3f3f;
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.line{
+    width: 100%;
+    opacity: 0.1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.latest{
+    font-family: arial;
+    font-size: 20px;
+    color:  #2a2a2a;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap:3%;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+}
+.element{
+    padding: 2px;
+    padding-left: 4px;
+}
+.image{
+    border: 1px solid #d7d7d7; 
+    border-radius: 4px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto; 
+}
+.color{
+      background-color: #D3D3D3;
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: 15px;
+}
+p{
+    font-size: 30px;
+    color: #7e7e7e;
+    padding-top: 60px;
+}
+.feature{
+    font-size: 20px;
+    font-family: arial;
+}
+.label{
+    margin-top: 18px;
+    color: #3f3f3f;
+}
+.lorem{
+    font-size: 13px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top:5px;
+}
+.line2{
+    margin-top: 6%;
+    opacity: 0.1;
+}
+.h6{
+    color: #545454;
+    text-align: left;
+    font-family: arial;
+    font-size: 13px;
+}
+.footer{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+@media screen and (max-width: 600px) {
+    div.subheading {
+      display: none;
+
+    }
+    .navbar{
+        width: 100%;
+    }
+
+    .subheading1{
+        width: 100%;
+        float: right;
+        position: absolute;
+        z-index: 999;
+    }
+    ul{
+        list-style: none;
+        background-color: #292421;
+        /* border-color: white; */
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 0.5px;
+        padding-top: 15px;
+        font-size: 13px;
+        padding-left: 15%;
+        padding-bottom: 15px;
+    }
+    li{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        /* margin-left: -10px; */
+    }
+    a{
+        color: white;
+        text-decoration:none;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    div .menuwidth{
+        width: 100%;
+    }
+
+    .icon{
+        display: inline;
+        position: absolute;
+        right: 35;
+        top: 0;
+        
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 auto;
+        width: 100%;
+      }
+  }
+@media only screen and (min-width: 600px){
+        div.icon {
+          display: none;
+        }
+        .navbar{
+            width: 100%;
+        }
+        .icon{
+            display: inline;
+            position: absolute;
+            right: 35;
+            top: 0;
+        }
+        .subheading1{
+            display: none !important;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            margin: 0 auto;
+            width: 100%;
+          }
+        }
+@media only screen and (min-width: 992px){
+         div.icon {
+          display: none;
+        } 
+        div .subheading{
+            display: inline;
+        }
+        .navbar{
+            width: 100%;
+        }
+        .icon{
+            display: inline;
+            position: absolute;
+            right: 35;
+            top: 0;
+            
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin: 0 auto;
+            width: 100%;
+          }
+        }
+     
