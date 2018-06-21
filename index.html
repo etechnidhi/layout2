@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title> Layout 2</title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0,minimum-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                 <div class="margin">
+                    <div class="mainheading">
+                        <a href="#">Layout1 </a>
+                    </div> 
+                    <div class="subheading" id="subheading">              
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="icon" onclick="myfunction">
+                            <a>
+                            <i class="fa fa-bars"></i>
+                            </a>
+                        </div>
+                </div>
+            </div>
+            <div class="mobile">
+                    <div class="subheading1" id="subheading">                         
+                        <ul>         
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                            </ul>
+                            </div>
+                            </div>
+            <div class="container">
+                <div class="heading">
+                    <div class="h1">
+                        <div class="para">
+                            <div class="head">Sample Heading </div>
+                            <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                            <button class="button">Clear to action</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"><hr> </div>
+                <div class="latest">
+                    Latest Features 
+                </div>
+                <div class="grid-container">
+                   <div class="element">
+                       <div class="image">
+                           <div class="color">
+                               <p>800x500</p>
+                           </div>
+                           <div class="label">
+                               <div class="feature">Feature Label </div>
+                               <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                               <div>
+                                   <button class="button">Buy Now</button>
+                                   <button class="more-info">More Info</button>
+                               </div>
+                           </div>                           
+                       </div>
+                   </div>
+                   <div class="element">
+                       <div class="image">
+                            <div class="color">
+                                    <p>800x500</p>
+                                </div>
+                                <div class="label">
+                                    <div class="feature">Feature Label </div>
+                                    <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <div>
+                                        <button class="button">Buy Now</button>
+                                        <button class="more-info">More Info</button>
+                                    </div>
+                                </div>  
+                       </div>
+                   </div>
+                   <div class="element">
+                       <div class="image">
+                            <div class="color">
+                                    <p>800x500</p>
+                                </div>
+                                <div class="label">
+                                    <div class="feature">Feature Label </div>
+                                    <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <div>
+                                        <button class="button">Buy Now</button>
+                                        <button class="more-info">More Info</button>
+                                    </div>
+                                </div>  
+                       </div>
+                   </div>
+                   <div class="element">
+                       <div class="image">
+                            <div class="color">
+                                    <p>800x500</p>
+                                </div>
+                                <div class="label">
+                                    <div class="feature">Feature Label </div>
+                                    <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <div>
+                                        <button class="button">Buy Now</button>
+                                        <button class="more-info">More Info</button>
+                                    </div>
+                                </div>  
+                       </div>
+                   </div>
+                </div>
+                <div class="line2"> <hr> </div>
+                <div class="footer">
+                        <div class="h6">Copyright © Your Website 2014</div>
+                    </div>
+            </div>
+        </div>
+         
+        <script>
+            $(document).ready(function(){
+               $(".icon").click(function(){
+                    $('.subheading1').toggle();
+                });
+            });
+            </script>
+    </body>
+</html>
